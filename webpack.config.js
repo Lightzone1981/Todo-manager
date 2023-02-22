@@ -34,11 +34,7 @@ module.exports = {
           to: path.resolve(__dirname, 'docs'),
         },
         {
-          from: path.resolve(__dirname, 'src/assets/images/'),
-          to: path.resolve(__dirname, 'docs'),
-        },
-        {
-          from: path.resolve(__dirname, 'src/assets/sounds/'),
+          from: path.resolve(__dirname, 'src/icons/'),
           to: path.resolve(__dirname, 'docs'),
         },
       ],
